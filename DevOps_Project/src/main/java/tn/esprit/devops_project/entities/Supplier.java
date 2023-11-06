@@ -12,6 +12,7 @@ import lombok.experimental.FieldDefaults;
 @Getter
 @Setter
 @AllArgsConstructor
+@Builder
 @NoArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Supplier implements Serializable {
